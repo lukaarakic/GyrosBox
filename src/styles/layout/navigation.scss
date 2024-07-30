@@ -1,0 +1,248 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 7.5rem;
+  background-color: transparent;
+  border-bottom: 1px solid transparent;
+  padding: 0 3.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition-duration: 0.4s;
+
+  & div:last-child {
+    width: 1.6rem;
+    height: 1.6rem;
+
+    @media only screen and (max-width: 35em) {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+
+  &__logo {
+    width: 17.8rem;
+  }
+
+  &__ig {
+    width: 100%;
+
+    filter: drop-shadow(0px 2px 4px #111);
+  }
+
+  &.active {
+    background-color: $dreamless-sleep;
+    border-bottom: 1px solid $jet;
+  }
+}
+
+// hamburger
+.ham {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 3.5rem;
+
+  @media only screen and (max-width: 35em) {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  position: fixed;
+  z-index: 102;
+  top: 2rem;
+  left: 2rem;
+
+  filter: drop-shadow(0px 2px 4px #111);
+}
+
+.ham4 .top {
+  stroke-dasharray: 40 121;
+}
+.ham4 .bottom {
+  stroke-dasharray: 40 121;
+}
+.ham4.active .top {
+  stroke-dashoffset: -68px;
+}
+.ham4.active .bottom {
+  stroke-dashoffset: -68px;
+}
+
+.hamRotate.active {
+  transform: rotate(45deg);
+}
+.hamRotate180.active {
+  transform: rotate(180deg);
+}
+.line {
+  fill: none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke: $white;
+  stroke-width: 5.5;
+  stroke-linecap: round;
+}
+
+// Menu
+
+.nav__menu {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 101;
+  pointer-events: none;
+
+  &.active {
+    pointer-events: all;
+  }
+
+  .item-1,
+  .item-2 {
+    width: 50%;
+    height: 100vh;
+    opacity: 0;
+
+    position: fixed;
+    top: 0;
+    z-index: 101;
+  }
+
+  .item-1.active,
+  .item-2.active {
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-duration: 0.6s;
+
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+
+  .item-1.closed,
+  .item-2.closed {
+    transition-duration: 0s;
+  }
+
+  .item-1.closing,
+  .item-2.closing {
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-duration: 0.6s;
+  }
+
+  .item-1.closing {
+    transform: translate3d(0, -100%, 0);
+    opacity: 0;
+  }
+  .item-2.closing {
+    transform: translate3d(0, 100%, 0);
+  }
+
+  .item-1 {
+    left: 0;
+    background-color: $dreamless-sleep;
+    transform: translate3d(0, 100%, 0);
+
+    @media only screen and (max-width: 48em) {
+      width: 100vw;
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .link {
+    }
+
+    & div:nth-child(1) {
+      margin-bottom: 1rem;
+
+      @media only screen and (max-width: 48em) {
+        margin-bottom: 2rem;
+      }
+    }
+
+    .mini__title {
+      margin-bottom: 2rem;
+
+      @media only screen and (max-width: 48em) {
+        margin-bottom: 0rem;
+      }
+    }
+  }
+
+  .item-2 {
+    right: 0;
+    background-color: $black;
+    transform: translate3d(0, -100%, 0);
+
+    @media only screen and (max-width: 48em) {
+      display: none;
+    }
+
+    .nav__images {
+      position: relative;
+      height: 100vh;
+      width: 50vw;
+
+      &__image {
+        width: 36.815rem;
+        height: 57.3rem;
+        position: absolute;
+        object-fit: cover;
+        left: 50%;
+
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      [data-img="meni"],
+      [data-img="onama"],
+      [data-img="instagram"],
+      [data-img="tiktok"] {
+        clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+
+        transition: transform 0.8s cubic-bezier(0.55, 0.055, 0.675, 0.19),
+          clip-path 0.5s cubic-bezier(0.55, 0.055, 0.675, 0.19),
+          -webkit-clip-path 0.5s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+      }
+
+      [data-img="meni"].show,
+      [data-img="onama"].show,
+      [data-img="instagram"].show,
+      [data-img="tiktok"].show {
+        clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+
+        transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        transition-duration: 0.8s;
+        transition-delay: 0.2s;
+        z-index: 2;
+      }
+
+      [data-img="meni"].hide,
+      [data-img="onama"].hide,
+      [data-img="instagram"].hide,
+      [data-img="tiktok"].hide {
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+      }
+
+      [data-img="meni"].initial,
+      [data-img="onama"].initial,
+      [data-img="instagram"].initial,
+      [data-img="tiktok"].initial {
+        clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+
+        transition: clip-path 0s cubic-bezier(0.55, 0.055, 0.675, 0.19),
+          -webkit-clip-path 0s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+      }
+    }
+  }
+}
