@@ -1,223 +1,223 @@
 {
   "gyros": [
     {
-      "name": "Svinjski gyros standard",
+      "name": "Pork Gyros Standard",
       "price": "580.00"
     },
     {
-      "name": "Pileći gyros standard",
+      "name": "Chicken Gyros Standard",
       "price": "520.00"
     },
     {
-      "name": "Mix gyros standard",
+      "name": "Mixed Gyros Standard",
       "price": "580.00"
     },
     {
-      "name": "Svinjski gyros kraljevski",
+      "name": "Pork Gyros Royal",
       "price": "650.00"
     },
     {
-      "name": "Pileći gyros kraljevski",
+      "name": "Chicken Gyros Royal",
       "price": "600.00"
     },
     {
-      "name": "Mix gyros kraljevski",
+      "name": "Mixed Gyros Royal",
       "price": "650.00"
     },
     {
-      "name": "Svinjski gyros porcija box",
+      "name": "Pork Gyros Portion Box",
       "price": "700.00"
     },
     {
-      "name": "Pileći gyros porcija box",
+      "name": "Chicken Gyros Portion Box",
       "price": "650.00"
     },
     {
-      "name": "Mix gyros porcija box",
+      "name": "Mixed Gyros Portion Box",
       "price": "700.00"
     },
     {
-      "name": "Dečiji gyros svinjski",
+      "name": "Children's Pork Gyros",
       "price": "400.00"
     },
     {
-      "name": "Dečiji gyros pileći",
+      "name": "Children's Chicken Gyros",
       "price": "580.00"
     },
     {
-      "name": "Dečiji gyros mix",
+      "name": "Children's Mixed Gyros",
       "price": "400.00"
     },
     {
-      "name": "Dečija gyros porcija box",
+      "name": "Children's Gyros Portion Box",
       "price": "450.00"
     }
   ],
   "pica": [
     {
-      "name": "Coca-Cola 0.5l",
+      "name": "Coca-Cola 0.5L",
       "price": "130.00"
     },
     {
-      "name": "Coca-Cola zero 0.5l",
+      "name": "Coca-Cola Zero 0.5L",
       "price": "130.00"
     },
     {
-      "name": "Coca-Cola 0.33l",
+      "name": "Coca-Cola 0.33L",
       "price": "100.00"
     },
     {
-      "name": "Coca-Cola zero 0.33l",
+      "name": "Coca-Cola Zero 0.33L",
       "price": "100.00"
     },
     {
-      "name": "Limunada",
+      "name": "Lemonade",
       "price": "70.00"
     },
     {
-      "name": "Fanta 0.5l",
+      "name": "Fanta 0.5L",
       "price": "130.00"
     },
     {
-      "name": "Fanta shokata 0.5l",
+      "name": "Fanta Shokata 0.5L",
       "price": "130.00"
     },
     {
-      "name": "Fanta tropic 0.5l",
+      "name": "Fanta Tropic 0.5L",
       "price": "120.00"
     },
     {
-      "name": "Fanta roze 0.5l",
+      "name": "Fanta Pink 0.5L",
       "price": "120.00"
     },
     {
-      "name": "Fanta 0.33l",
+      "name": "Fanta 0.33L",
       "price": "100.00"
     },
     {
-      "name": "Fanta exotic 0.33l",
+      "name": "Fanta Exotic 0.33L",
       "price": "100.00"
     },
     {
-      "name": "Sprite 0.5l",
+      "name": "Sprite 0.5L",
       "price": "130.00"
     },
     {
-      "name": "Schweppes 0.5l",
+      "name": "Schweppes 0.5L",
       "price": "130.00"
     },
     {
-      "name": "Schweppes 0.33l",
+      "name": "Schweppes 0.33L",
       "price": "100.00"
     },
     {
-      "name": "Schweppes mohito 0.33l",
+      "name": "Schweppes Mojito 0.33L",
       "price": "100.00"
     },
     {
-      "name": "Ultra 0.33l",
+      "name": "Ultra 0.33L",
       "price": "120.00"
     },
     {
-      "name": "Ultra 0.5l",
+      "name": "Ultra 0.5L",
       "price": "200.00"
     },
     {
-      "name": "Joy višnja 0.5l",
+      "name": "Joy Cherry 0.5L",
       "price": "120.00"
     },
     {
-      "name": "Joy multivitamin 0.5l",
+      "name": "Joy Multivitamin 0.5L",
       "price": "120.00"
     },
     {
-      "name": "Joy narandža 0.5l",
+      "name": "Joy Orange 0.5L",
       "price": "120.00"
     },
     {
-      "name": "Joy zova 0.5l",
+      "name": "Joy Elderflower 0.5L",
       "price": "120.00"
     },
     {
-      "name": "Rosa 0.5l",
+      "name": "Rosa 0.5L",
       "price": "80.00"
     },
     {
-      "name": "Rosa 0.33l",
+      "name": "Rosa 0.33L",
       "price": "70.00"
     },
     {
-      "name": "Rosa gazirana 0.5l",
+      "name": "Rosa Sparkling 0.5L",
       "price": "90.00"
     },
     {
-      "name": "Bući bući",
+      "name": "Bući Bući",
       "price": "70.00"
     },
     {
-      "name": "Zaječarsko pivo 0.5l",
+      "name": "Zaječarsko Beer 0.5L",
       "price": "140.00"
     },
     {
-      "name": "Amstel pivo 0.5l",
+      "name": "Amstel Beer 0.5L",
       "price": "160.00"
     },
     {
-      "name": "Birra Moreti 0.5l",
+      "name": "Birra Moretti 0.5L",
       "price": "180.00"
     },
     {
-      "name": "Heineken pivo 0.5l",
+      "name": "Heineken Beer 0.5L",
       "price": "200.00"
     },
     {
-      "name": "Laško pivo 0.5l",
+      "name": "Laško Beer 0.5L",
       "price": "180.00"
     }
   ],
   "ostalo": [
     {
-      "name": "Pohovani kačkavalj",
+      "name": "Breaded Cheese",
       "price": "350.00"
     },
     {
-      "name": "Pohovani kačkavalj box porcija",
+      "name": "Breaded Cheese Portion Box",
       "price": "400.00"
     },
     {
-      "name": "Dinosaurusi box porcija",
+      "name": "Dinosaur Portion Box",
       "price": "400.00"
     },
     {
-      "name": "Pileći nugget",
+      "name": "Chicken Nuggets",
       "price": "350.00"
     },
     {
-      "name": "Pileći nugget box porcija",
+      "name": "Chicken Nuggets Portion Box",
       "price": "400.00"
     },
     {
-      "name": "Pohovana palačinka slatka",
+      "name": "Sweet Breaded Pancake",
       "price": "150.00"
     },
     {
-      "name": "Pohovana palačinka slana",
+      "name": "Savory Breaded Pancake",
       "price": "150.00"
     },
     {
-      "name": "Zizu pileći štapići",
+      "name": "Zizu Chicken Sticks",
       "price": "380.00"
     },
     {
-      "name": "Zizu pileći štapići porcija box",
+      "name": "Zizu Chicken Sticks Portion Box",
       "price": "450.00"
     },
     {
-      "name": "Pileći medaljoni",
+      "name": "Chicken Medallions",
       "price": "350.00"
     },
     {
-      "name": "Pileći medaljoni box paket",
+      "name": "Chicken Medallions Box Package",
       "price": "400.00"
     }
   ]

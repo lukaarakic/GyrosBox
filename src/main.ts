@@ -307,9 +307,9 @@ if (screenWidth > 768) {
     observer.observe(target);
   });
 } else {
-  sliderTitle?.replaceChildren("Hiljade zadovoljnih mušterija");
+  sliderTitle?.replaceChildren("Thousands of satisfied customers");
   sliderDescription?.replaceChildren(
-    "Preko hiljadu zadovoljnih gostiju su uživali u našoj savršenoj kombinaciji sočnog, začinjenog mesa, svežeg povrća i kremastog tzatziki sosa. Naša posvećenost kulinarstvu i zadovoljstvu naših gostiju sjaji u svakom zalogaju. Od naše prijateljske usluge do naših ukusnih gyros-a, ponosimo se što premašujemo svačija očekivanja. Uživajte u gyros iskustvu kao nikada ranije. Vaše poverenje pokreće našu strast i jedva čekamo da Vas poslužimo sa istom posvećenošću koja je obradovala hiljade. Pridružite nam se i postanite jedan od naših zadovoljnih posetilaca!"
+    "Over a thousand pleased customers savored our ideal combination of juicy, spicy beef, fresh vegetables, and creamy tzatziki sauce. Our commitment to culinary quality and guest happiness is evident in every bite. From our pleasant service to our delectable gyros, we take pride in exceeding our customers' expectations. Enjoy your gyros experience like never before. Your trust fuels our enthusiasm, and we look forward to serving you with the same dedication that has thrilled thousands. Join us and become one of our pleased guests!"
   );
 
   const track = document.querySelector(".slider .item-1");
